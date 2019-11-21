@@ -15,7 +15,12 @@ public class AdivinaNumero {
 			respuesta = scan.nextInt();
 			
 			if(respuesta != numeroAdivinar) {
-				System.out.println("Lo siento no has acertado, sigue jugando");
+				if(respuesta > numeroAdivinar) {
+					System.out.println("Lo siento no has acertado, el número es menor que el que has introducido. Sigue jugando");
+				}else {
+					System.out.println("Lo siento no has acertado, el número es mayor que el que has introducido. Sigue jugando");
+				}
+				
 			}else {
 				System.out.println("Enhorabuena!!!Has acertado!!!!");
 			}
