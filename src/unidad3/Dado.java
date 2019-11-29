@@ -41,14 +41,54 @@ public class Dado {
 			}
 		}
 		
-		System.out.println("El numero 1 ha salido " + vecesUno + " veces.");
-		System.out.println("El numero 2 ha salido " + vecesDos + " veces.");
-		System.out.println("El numero 3 ha salido " + vecesTres + " veces.");
-		System.out.println("El numero 4 ha salido " + vecesCuatro + " veces.");
-		System.out.println("El numero 5 ha salido " + vecesCinco + " veces.");
-		System.out.println("El numero 6 ha salido " + vecesSeis + " veces.");
-		scan.close();
-
+		if(vecesUno == 0) {
+			System.out.println("El numero 1 no ha salido ninguna vez.");
+		}else if (vecesUno == 1 ) {
+			System.out.println("El numero 1 ha salido " + vecesUno + " vez.");
+		}else {
+			System.out.println("El numero 1 ha salido " + vecesUno + " veces.");
+		}
+		
+		if(vecesDos == 0) {
+			System.out.println("El numero 2 no ha salido ninguna vez.");
+		}else if (vecesDos == 1 ) {
+			System.out.println("El numero 2 ha salido " + vecesDos + " vez.");
+		}else {
+			System.out.println("El numero 2 ha salido " + vecesDos + " veces.");
+		}
+		
+		if(vecesTres == 0) {
+			System.out.println("El numero 3 no ha salido ninguna vez.");
+		}else if (vecesTres == 1 ) {
+			System.out.println("El numero 3 ha salido " + vecesTres + " vez.");
+		}else {
+			System.out.println("El numero 3 ha salido " + vecesTres + " veces.");
+		}
+		
+		if(vecesCuatro == 0) {
+			System.out.println("El numero 4 no ha salido ninguna vez.");
+		}else if (vecesCuatro == 1 ) {
+			System.out.println("El numero 4 ha salido " + vecesCuatro + " vez.");
+		}else {
+			System.out.println("El numero 4 ha salido " + vecesCuatro + " veces.");
+		}
+		
+		if(vecesCinco == 0) {
+			System.out.println("El numero 5 no ha salido ninguna vez.");
+		}else if (vecesCinco == 1 ) {
+			System.out.println("El numero 5 ha salido " + vecesCinco + " vez.");
+		}else {
+			System.out.println("El numero 5 ha salido " + vecesCinco + " veces.");
+		}
+		
+		if(vecesSeis == 0) {
+			System.out.println("El numero 6 no ha salido ninguna vez.");
+		}else if (vecesSeis == 1 ) {
+			System.out.println("El numero 6 ha salido " + vecesSeis + " vez.");
+		}else {
+			System.out.println("El numero 6 ha salido " + vecesSeis + " veces.");
+		}
+		
 	}
 
 }
