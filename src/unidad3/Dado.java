@@ -15,7 +15,7 @@ public class Dado {
 		
 		System.out.println("Empezamos lanzando el dado! ¿Cuántas veces quieres lanzarlo?");
 		veces = scan.nextInt();
-		
+		scan.close();
 		for(int i=0;i<veces;i++) {
 			cara = (int) (Math.random()* 6 + 1);
 			
